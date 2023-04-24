@@ -12,7 +12,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadInvoices{
-	private static final String NAME = "/home/onmyway/Downloads/validateupdateaCases.xlsx";
+	private static final String NAME = "./data/file_example_XLSX_5000.xlsx";
 	public static void main(String[] args){
 		try{
 			FileInputStream file = new FileInputStream(new File(NAME));
